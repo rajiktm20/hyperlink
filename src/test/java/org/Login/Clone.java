@@ -9,7 +9,8 @@ public class Clone {
 		
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.snapdeal.com");
-	
-
+		
+		String title=driver.getTitle();
+		String url=driver.getCurrentUrl();
 	}
 }
